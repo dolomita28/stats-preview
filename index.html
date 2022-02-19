@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card__details">
+          <h1 class="card__details-title">Get <span class="accent">insights</span> that help your business grow.</h1>
+          <p class="card__details-txt">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="card__details-review">
+            <div class="card__details-summary">
+              <p class="number">10k+</p>
+              <p class="txt">companies</p>
+            </div>
+            <div class="card__details-summary">
+              <p class="number">314</p>
+              <p class="txt">templates</p>
+            </div>
+            <div class="card__details-summary">
+              <p class="number">12m+</p>
+              <p class="txt">queries</p>
+            </div>
+          </div>
+        </div>
+        <div class="card__image">
+          <div class="overlay"></div>
+          <picture>
+            <source srcset="images/image-header-mobile.jpg" media="(max-width: 375px)">
+            <source srcset="images/image-header-desktop.jpg">
+            <img srcset="images/image-header-desktop.jpg"
+            alt="image-header-desktop">
+        </picture>          
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded with love by <a href="#">Humas</a>.
+    </footer>
+  </body>
+</html>
